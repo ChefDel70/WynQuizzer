@@ -1,7 +1,9 @@
 class StaticController < ApplicationController
 
 	def language
-	end 
+      @terms = Term.all
+	end
 
-	
+
+
 end
