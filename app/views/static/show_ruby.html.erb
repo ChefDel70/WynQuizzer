@@ -1,5 +1,8 @@
-<% @var do |card| %>
+<% #@vars.each do |card| %>
 	<div class = "mycard">
-		<%= @var.sample %>
+		<%= @card.vocab %>
 	</div>
-	<% end %>
+	<% # end %>
+	<div class = "defintion" id = "card-definition">
+		<%= @card.definition %>
+	</div>
