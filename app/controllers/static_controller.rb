@@ -5,19 +5,20 @@ class StaticController < ApplicationController
 	end
 
 	def show_ruby
-			@var = Term.where(:language_id => 1)
+			# @vars = Term.where(:language_id => 1)
+            @card = Term.where(:language_id => 1).sample
 	end
 
 	def show_html
-		@var = Term.where(:language_id => 2)
+		@vars = Term.where(:language_id => 2)
 	end
 
 	def show_css
-		@var = Term.where(:language_id => 3)
+		@vars = Term.where(:language_id => 3)
 	end
 
 	def show_all_cards
-		@var = Term.all
+		@vars = Term.all
 	end
 
 
