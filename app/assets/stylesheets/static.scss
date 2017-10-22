@@ -18,9 +18,9 @@ body{
 
 h1{
 	text-align: center;
-	font-size: 75pt;
+	font-size: 90pt;
 	font-family: 'Rajdhani', sans-serif;
-	margin-bottom: 200px;
+	margin-bottom: 125px;
 }
 strong{
 	font-weight: bold;
@@ -29,11 +29,25 @@ strong{
 .lang {
 	column-count: 3;
 	text-align: center;
-	margin-bottom: 150px;
+
 }
 
 .all{
 	text-align: center;
+	font-family: 'Rajdhani', sans-serif;
+	margin-bottom: 100px;
+	font-weight: bold;
+	font-size: 25pt;
+
+}
+
+#all {
+ background: -webkit-linear-gradient(-140deg, white, #3498db);
+width:20%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 8%;
+padding: 10px;
 }
 
 img {
@@ -46,6 +60,7 @@ img:hover
      cursor:pointer;
 		 width: 30%;
 	 	height: 30%;
+
 }
 
 
@@ -59,8 +74,4 @@ img:hover
 
 #html-logo {
 	margin-left: 250px;
-}
-
-#all {
-	margin-top: 30px;
 }
