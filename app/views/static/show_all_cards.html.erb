@@ -7,4 +7,6 @@
 		<%= @card.definition %>
 	</div>
 
-	<button onclick="nextCard()">Next Card</button>
+	<li class="next_button">
+		<%= link_to "Next", @card.next %>
+	</li>	
