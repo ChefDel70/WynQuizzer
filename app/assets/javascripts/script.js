@@ -1,6 +1,14 @@
-// console.log("hello")
-
+// Script for Button to reveal definition
 window.addEventListener('load', function(){
-	console.log("hello");
 	var definition = document.getElementById('card-definition');
 })
+
+function showDefinition() {
+    var x = document.getElementById("card-definition");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+// End of Script for Button 

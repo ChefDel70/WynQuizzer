@@ -1,8 +1,9 @@
+<!-- View for Ruby Flash Cards. -->
+<div class = "mycard">
+	<%= @card.vocab %>
+</div>
+<button onclick="showDefinition()">Show Definition</button>
 
-	<div class = "mycard">
-		<%= @card.vocab %>
-	</div>
-
-	<div class = "defintion" id = "card-definition">
-		<%= @card.definition %>
-	</div>
+<div class = "defintion" id = "card-definition">
+	<%= @card.definition %>
+</div>
