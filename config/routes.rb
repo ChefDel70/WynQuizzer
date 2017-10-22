@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+	get '/' => 'static#language'
 	get 'language' => 'static#language'
 	get 'ruby' => 'static#show_ruby'
 	get 'html' => 'static#show_html'

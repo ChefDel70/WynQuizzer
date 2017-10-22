@@ -6,7 +6,6 @@ class StaticController < ApplicationController
 
 	def show_ruby
 		@card = Term.where(:language_id => 1).sample
-		# @next_card = Term.where(:language_id => 1).sample
 	end
 
 	def show_html

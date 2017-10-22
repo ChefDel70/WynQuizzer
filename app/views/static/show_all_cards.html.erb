@@ -1,3 +1,4 @@
+
 <div class = "mycard">
 		<%= @card.vocab %>
 	</div>
@@ -7,6 +8,6 @@
 		<%= @card.definition %>
 	</div>
 
-	<li class="next_button">
-		<%= link_to "Next", @card.next %>
-	</li>	
+	<button class="next_button">
+		<%= link_to "Next", @next_card %>
+	</button>	
