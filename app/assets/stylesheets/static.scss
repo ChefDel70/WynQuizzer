@@ -6,9 +6,9 @@
 #card-definition {
 	display: none;
 }
-*{
+/**{
 	box-sizing: border-box;
-}
+}*/
 
 body{
 	background: image-url('frontpage.png') no-repeat center center fixed;
@@ -74,4 +74,65 @@ img:hover
 
 #html-logo {
 	margin-left: 250px;
+}
+
+a:link {
+    color: black;
+}
+
+.all_cards_box_1 {
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 75px;
+    height: 3px;
+    width: 65%;
+    float: left;
+}
+
+.all_cards_box_2 {
+    background-color: aliceblue;
+    margin-left: 10%;
+	margin-right: 10%;
+    padding: 75px;
+    height: 3px;
+    width: 65%;
+    float: left;
+}
+
+.all_cards_box_3 {
+    background-color: aliceblue;
+    margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20%;
+    padding: 75px;
+    height: 3px;
+    width: 65%;
+    float: left;
+}
+.mycard {
+	border: solid 1px black;
+	margin-bottom: 120px;
+	font-size: 30px;
+}
+
+div#card-definition {
+/*	border: solid 1px magenta;
+*/	margin-bottom: 20%;
+}
+
+.button_position {
+/*	border: solid 1px green;
+*/}
+
+.reveal_button {
+	float: left;
+	margin-left: 40%;
+	margin-right: 10px;
+	height: 30px;
+}
+
+.next_button {
+	height: 30px;
 }
