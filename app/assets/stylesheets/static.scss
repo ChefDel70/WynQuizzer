@@ -6,10 +6,13 @@
 #card-definition {
 	display: none;
 }
+*{
+	box-sizing: border-box;
+}
 
 body{
 	background: image-url('frontpage.png') no-repeat center center fixed;
-	box-sizing: border-box;
+	background-size: cover;
 }
 
 
@@ -17,8 +20,10 @@ h1{
 	text-align: center;
 	font-size: 75pt;
 	font-family: 'Rajdhani', sans-serif;
-	font-weight: bold;
 	margin-bottom: 200px;
+}
+strong{
+	font-weight: bold;
 }
 
 .lang {
@@ -29,4 +34,33 @@ h1{
 
 .all{
 	text-align: center;
+}
+
+img {
+	width: 20%;
+	height: 20%;
+}
+
+img:hover
+{
+     cursor:pointer;
+		 width: 30%;
+	 	height: 30%;
+}
+
+
+#ruby-logo {
+	margin-top: 25px;
+}
+
+#css-logo {
+	margin-right: 250px;
+}
+
+#html-logo {
+	margin-left: 250px;
+}
+
+#all {
+	margin-top: 30px;
 }
