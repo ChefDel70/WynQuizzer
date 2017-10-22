@@ -11,4 +11,8 @@ function showDefinition() {
         x.style.display = "block";
     }
 }
+
+function nextCard() {
+	
+}
 // End of Script for Button 

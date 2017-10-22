@@ -6,8 +6,9 @@
 #card-definition {
 	display: none;
 }
-*{
-	background-image: url("app/assets/images/frontpage.png") no-repeat center center fixed;
+
+body{
+	background: image-url('frontpage.png') no-repeat center center fixed;
 	box-sizing: border-box;
 }
 
