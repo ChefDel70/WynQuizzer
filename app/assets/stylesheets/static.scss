@@ -11,18 +11,26 @@
 }*/
 
 body{
-	background: image-url('frontpage.png') no-repeat center center fixed;
+	background: image-url('paintsplatter.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
 
 h1{
-	color: black;
+	color: white;
 	text-align: center;
 	font-size: 90pt;
 	font-family: 'Rajdhani', sans-serif;
 	margin-bottom: 25px;
 }
+#title{
+background: rgba(255, 255, 255, 0.25);
+padding: 12px;
+border-radius: 20px;
+margin-left: 175px;
+margin-right: 175px;
+}
+
 strong{
 	font-weight: bold;
 }
@@ -39,7 +47,7 @@ strong{
 	margin-bottom: 100px;
 	font-weight: bold;
 	font-size: 25pt;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 #all {
@@ -66,15 +74,17 @@ img:hover
 
 
 #ruby-logo {
-	margin-top: 25px;
+
 }
 
 #css-logo {
-	margin-right: 250px;
+	margin-right: 300px;
 }
 
 #html-logo {
-	margin-left: 250px;
+	margin-left: 300px;
+
+
 }
 
 a {
@@ -83,51 +93,45 @@ a {
 }
 
 .all_cards_box_1 {
-    background-color: aliceblue;
-    margin-top: 5%;
-    margin-left: 17%;
-    margin-right: 10%;
-    padding: 75px;
-    height: 3px;
-    width: 65%;
-    float: left;
-		box-shadow: 20px 20px grey;
+    margin-top: 25px;
 		font-family: 'Rajdhani', sans-serif;
 }
 
+#textv{
+	font-size: 40px;
+	color: white;
+}
+
 .all_cards_box_2 {
-    background-color: aliceblue;
-    margin-left: 17%;
-	  margin-right: 10%;
-    padding: 75px;
-    height: 3px;
-    width: 65%;
-    float: left;
-		box-shadow: 20px 20px grey;
+    height: 600px;
+    // width: 900px;
+    background: image-url('computer.png') no-repeat center;
+		background-size: 800px 600px;
+
+
+}
+
+#card-definition{
+	margin: 0 410px;
+	padding-top: 100px;
 }
 
 .all_cards_box_3 {
-    background-color: aliceblue;
-    margin-left: 17%;
-	  margin-right: 10%;
-	  margin-bottom: 20%;
-    padding: 75px;
-    height: 3px;
-    width: 65%;
-    float: left;
-		box-shadow: 20px 20px grey;
+		margin: 0 410px;
+    text-align: center;
+
 
 }
-.mycard {
-	border: solid 1px black;
-	margin-bottom: 120px;
-	font-size: 30px;
-	font-family: 'Rajdhani', sans-serif;
-}
+// .mycard {
+// 	border: solid 1px black;
+// 	// margin-bottom: 120px;
+// 	font-size: 30px;
+// 	font-family: 'Rajdhani', sans-serif;
+// }
 
 div#card-definition {
 /*	border: solid 1px magenta;
-*/	margin-bottom: 20%;
+	margin-bottom: 20%; */
 }
 
 .button_position {
@@ -135,14 +139,14 @@ div#card-definition {
 */}
 
 .reveal_button {
-	float: left;
-	margin-left: 33%;
-	margin-right: 10px;
-	height: 30px;
+
+	// margin-left: 33%;
+	// margin-right: 10px;
+	// height: 30px;
 }
 
 .next_button {
-	height: 30px;
+	// height: 30px;
 }
 
 #card-definition{
@@ -151,6 +155,11 @@ div#card-definition {
 }
 .typewrite {
 	font-size: 60px;
-	color: black;
+	color: white;
 	font-family: 'Rajdhani', sans-serif;
+}
+#html-logo, #ruby-logo, #css-logo {
+    background: rgba(255, 255, 255, 0.64);
+    padding: 12px;
+    border-radius: 20px;
 }

@@ -1,21 +1,15 @@
 <div>
-<div class = "all_cards_box_1">
-	<div class = "bg-warning mycard">
-		<center><%= @card.vocab %></center>
+	<div class = "all_cards_box_1 mycard">
+		<center id= "textv"><%= @card.vocab %></center>
 	</div>
-</div> <!-- End all_cards_box_1 -->
-<div class = "all_cards_box_2">
-	<div class = "definition" id = "card-definition">
-		<center><%= @card.definition %></center>
+	<div class = "all_cards_box_2 definition">
+		<center id = "card-definition"><%= @card.definition %></center>
 	</div>
-</div> <!-- End all_cards_box_2 -->
-<div class = "all_cards_box_3">
 
-	<div class = "button_position">
-		
+	<div class = "all_cards_box_3 button_position">
+
 			<button class= "btn btn-info reveal_button" onclick="showDefinition()">Show Definition</button>
 			<button class="btn btn-info next_button"><%= link_to "Next", @next_card %></button>
-		
+
 	</div>
-</div> <!-- End all_cards_box_3 -->
 </div>
