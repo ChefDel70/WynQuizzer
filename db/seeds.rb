@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Language.create(name: "Ruby")
+Language.create(name: "HTML")
+Language.create(name: "CSS")
 
 html_list = [
   ["Definition of HTTP", "Hyper-text-markup-language.  HTTP works as a request-response protocol between the client, and server" ],

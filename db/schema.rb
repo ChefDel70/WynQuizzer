@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20171021174730) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "languages", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -26,4 +29,5 @@ ActiveRecord::Schema.define(version: 20171021174730) do
     t.integer "language_id"
   end
 
+  add_foreign_key "terms", "languages"
 end
