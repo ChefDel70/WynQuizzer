@@ -11,7 +11,7 @@
 }*/
 
 body{
-	background: image-url('paintsplatter.jpg') no-repeat center center fixed;
+	background: image-url('backgroundbluetech.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -51,12 +51,14 @@ strong{
 }
 
 #all {
-  background: -webkit-linear-gradient(-140deg, white, #3498db);
+  background: -webkit-linear-gradient(-140deg, blue, #3498db);
 	width:20%;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 8%;
-	padding: 10px;
+	padding: 12px;
+	border-radius: 20px;
+	// border-radius: 8%;
+	// padding: 10px;
 }
 
 img {
@@ -67,23 +69,27 @@ img {
 img:hover
 {
      cursor:pointer;
-		 width: 30%;
-	 	 height: 30%;
+		 width: 200px;
+	 	 height: 200px;
 
 }
 
 
 #ruby-logo {
-
+	height: 150px;
+  width: 150px;
 }
 
 #css-logo {
 	margin-right: 300px;
+	height: 150px;
+	width: 150px;
 }
 
 #html-logo {
 	margin-left: 300px;
-
+	height: 150px;
+	width: 150px;
 
 }
 
@@ -159,7 +165,7 @@ div#card-definition {
 	font-family: 'Rajdhani', sans-serif;
 }
 #html-logo, #ruby-logo, #css-logo {
-    background: rgba(255, 255, 255, 0.64);
+    background: rgba(255, 255, 255, 0.40);
     padding: 12px;
     border-radius: 20px;
 }
