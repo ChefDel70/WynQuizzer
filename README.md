@@ -1,24 +1,8 @@
-# README
+Welcome to Wynquiz!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This program was designed to assist students at Wyncode Academy with learning
+buzz and vocabulary words for the curriculum.
 
-Things you may want to cover:
+Utilized Ruby on Rails, HTML, CSS, Javascript, Bootstrap, and Postgresql.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Deployed to the web by Heroku.
